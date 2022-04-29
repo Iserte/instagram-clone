@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.gray-border {
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.blue-background {
+  background-color: #4488ff;
+  color: white;
+}
+
+body {
+  background-color: rgb(250,250,250);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+}
+
+body, button, input, textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 60%;
+}
+
+.instagram-phone-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.instagram-phone-image img {
+  max-width: 100%;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 350px;
+}
+
+.login-container img {
+  max-width: 100%;
+}
+
+.login {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.login img {
+  align-self: center;
+  margin: 36px 0 12px 0;
+}
+
+.login-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-data input {
+  background-color: rgba(250,250,250,1);
+  margin: 4px;
+}
+
+.login-data button {
+  margin-top: 8px;
+}
+
+.login-data input, .login-data button {
+  width: 100%;
+  max-width: 80%;
+  align-self: center;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.separator {
+  align-self: center;
+  color: rgb(150, 150, 150);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.facebook-login {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facebook-login a {
+  margin: 6px 0;
+}
+
+.facebook-button {
+  color: #4267B2;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.recover-password {
+  color: #3e5b94;
+  font-size: 0.8rem;
+}
+
+.signup-container {
+  margin-top: 12px;
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+}
+
+.signup-container a {
+  color: #3e5b94;
+  font-weight: 600;
+}
+
+.get-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-app p {
+  padding: 16px;
+}
+
+.store-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.store-icons a {
+  margin: 0 4px;
+  width: 40%;
+}
+
+footer, footer a {
+  color:#82868f;
+  font-size: 0.75rem;
+  margin: 2px 6px;
+}
+
+footer {
+  width: 60%;
+  max-width: 800px;
+  margin-top: 64px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.footer-data p {
+  margin: 0 8px;
+}
